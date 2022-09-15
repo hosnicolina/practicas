@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+    <style>
+        input{
+            width: 250px;
+        }
+    </style>
+</head>
+<body>
+    <form method="get">
+        <label for="nombre">Nombre</label>
+        <input type="text"  name="nombre">
+        <br>
+        <input type="email" placeholder="Email" name="correo">
+        <br>
+        <textarea name="mensaje" placeholder="Escribe un mensaje aqui"></textarea>
+        <br>
+        <input type="password" name="contrase#a">
+        <br>
+        Musica Favorita
+        <br>
+        <label>
+            Vallenato
+            <input type="checkbox" name="musica" >
+        </label>
+        <label>
+            Merange
+            <input type="checkbox" name="musica" >
+        </label>
+        <label>
+            Salsa
+            <input type="checkbox" name="musica" >
+        </label>
+        <label>
+            Regueaton
+            <input type="checkbox" name="musica" >
+        </label>
+        <br>
+        <input type="radio" name="hair">marron
+        <br>
+        <input type="radio" name="hair">rubio
+        <br>
+        <input type="radio" name="hair">negro
+        <br>
+        <input type="radio" name="hair">casta#o
+        <br>
+        <select name="mascota" >
+            <option value="gato">gato</option>
+            <option value="perro">perro</option>
+            <option value="raton">raton</option>
+        </select>
+        <br>
+        <button>Enviar</button>
+    </form>
+</body>
+</html>

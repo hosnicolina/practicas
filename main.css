@@ -1,0 +1,65 @@
+/*
+    Cascada: lo de abajo siempre sobreescribe lo de arriba
+*/
+
+ h1{
+    color: red;
+}
+
+h1{
+    color: turquoise;
+}
+
+.parrafo{
+    color: saddlebrown;
+}
+
+.parrafo{
+    color: slateblue;
+} 
+
+/*
+    Herencia: los hijos siempre heredan del padre
+*/
+
+li{
+    color: brown;
+} 
+
+/*
+    Especifidad: que tan especifico es el selector tiene mayor peso.
+*/
+
+ h1.bran{
+    color: blueviolet;
+}
+
+#new-color{
+    color: black;
+}
+
+p{
+    color: blue;
+}
+
+h1.bran{
+    color: aquamarine !important;
+}
+
+.bran{
+    color: red !important;
+}
+
+
+.header{
+    background: rebeccapurple;
+}
+.header-logo{
+    color: white;
+}
+.header-nav{
+    background: black;
+}
+.header-nav-item{
+    color: white;
+} 

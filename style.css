@@ -1,0 +1,45 @@
+.header{
+    background: rebeccapurple;
+    padding: 20px;
+}
+
+.logo{
+    margin-top: 0px;
+    color: white;
+    display: inline;
+    margin-right: 1000px;
+}
+
+.nav{
+    display: inline;
+}
+
+.nav-li{
+    display: inline;
+    color: white;
+    margin-left: 20px;
+}
+
+.form{
+    background: rebeccapurple;
+    padding: 20px;
+}
+
+.form-title{
+    color: white;
+}
+
+.form-input{
+    display: block;
+    margin-bottom: 30px;
+}
+
+.footer{
+    background: slateblue;
+    color: white;
+    padding: 20px;
+}
+
+.main{
+    padding: 20px;
+}
